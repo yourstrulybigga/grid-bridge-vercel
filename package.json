@@ -1,0 +1,14 @@
+{
+  "name": "grid-bridge-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/grid.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "openai": "^4.56.0"
+  }
+}
